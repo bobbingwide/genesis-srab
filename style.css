@@ -1053,7 +1053,7 @@ img.alignright,
 .genesis-nav-menu a {
 	color: #333;
 	display: block;
-	font-size: 15px;
+	font-size: 16px;
 	font-weight: 400;
 	outline-offset: -1px;
 	padding-bottom: 12px;
@@ -1066,7 +1066,8 @@ img.alignright,
 .genesis-nav-menu .current-menu-item > a,
 .genesis-nav-menu .sub-menu .current-menu-item > a:focus,
 .genesis-nav-menu .sub-menu .current-menu-item > a:hover {
-	color: #0073e5;
+	color: #ffffff;
+	background-color: #5f5d89;
 	text-decoration: none;
 }
 
