@@ -1,12 +1,12 @@
 <?php
 /**
- * Genesis Sample.
+ * Genesis Solent Roofing and Building.
  *
  * A template to force full-width layout, remove breadcrumbs, and remove the page title.
  *
  * Template Name: Blocks
  *
- * @package Genesis Sample
+ * @package Genesis Solent Roofing and Building
  * @author  StudioPress
  * @license GPL-2.0-or-later
  * @link    https://www.studiopress.com/

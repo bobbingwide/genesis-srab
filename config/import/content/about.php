@@ -1,23 +1,23 @@
 <?php
 /**
- * Genesis Sample.
+ * Genesis Solent Roofing and Building.
  *
  * About page content optionally installed after theme activation.
  *
  * Visit `/wp-admin/admin.php?page=genesis-getting-started` to trigger import.
  *
- * @package Genesis Sample
+ * @package Genesis Solent Roofing and Building
  * @author  StudioPress
  * @license GPL-2.0-or-later
  * @link    https://www.studiopress.com/
  */
 
 // Photo by Fabrice Villard on Unsplash.
-$genesis_sample_about_image_url = CHILD_URL . '/config/import/images/about.jpg';
+$genesis_srab_about_image_url = CHILD_URL . '/config/import/images/about.jpg';
 
 return <<<CONTENT
 <!-- wp:image {"id":2141,"align":"center"} -->
-<div class="wp-block-image"><figure class="aligncenter"><img src="$genesis_sample_about_image_url" alt="" class="wp-image-2141"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter"><img src="$genesis_srab_about_image_url" alt="" class="wp-image-2141"/></figure></div>
 <!-- /wp:image -->
 
 <!-- wp:atomic-blocks/ab-spacer {"spacerHeight":29} -->

@@ -1,16 +1,16 @@
 <?php
 /**
- * Genesis Sample.
+ * Genesis Solent Roofing and Building.
  *
- * This file adds the WooCommerce styles and the Customizer additions for WooCommerce to the Genesis Sample Theme.
+ * This file adds the WooCommerce styles and the Customizer additions for WooCommerce to the Genesis Solent Roofing and Building Theme.
  *
- * @package Genesis Sample
+ * @package Genesis Solent Roofing and Building
  * @author  StudioPress
  * @license GPL-2.0-or-later
  * @link    https://www.studiopress.com/
  */
 
-add_filter( 'woocommerce_enqueue_styles', 'genesis_sample_woocommerce_styles' );
+add_filter( 'woocommerce_enqueue_styles', 'genesis_srab_woocommerce_styles' );
 /**
  * Enqueues the theme's custom WooCommerce styles to the WooCommerce plugin.
  *
@@ -19,10 +19,10 @@ add_filter( 'woocommerce_enqueue_styles', 'genesis_sample_woocommerce_styles' );
  *
  * @return array Modified WooCommerce styles to enqueue.
  */
-function genesis_sample_woocommerce_styles( $enqueue_styles ) {
+function genesis_srab_woocommerce_styles( $enqueue_styles ) {
 
 	$enqueue_styles[ genesis_get_theme_handle() . '-woocommerce-styles' ] = array(
-		'src'     => get_stylesheet_directory_uri() . '/lib/woocommerce/genesis-sample-woocommerce.css',
+		'src'     => get_stylesheet_directory_uri() . '/lib/woocommerce/genesis-srab-woocommerce.css',
 		'deps'    => '',
 		'version' => genesis_get_theme_version(),
 		'media'   => 'screen',
@@ -32,7 +32,7 @@ function genesis_sample_woocommerce_styles( $enqueue_styles ) {
 
 }
 
-add_action( 'wp_enqueue_scripts', 'genesis_sample_woocommerce_css' );
+add_action( 'wp_enqueue_scripts', 'genesis_srab_woocommerce_css' );
 /**
  * Adds the themes's custom CSS to the WooCommerce stylesheet.
  *
@@ -40,7 +40,7 @@ add_action( 'wp_enqueue_scripts', 'genesis_sample_woocommerce_css' );
  *
  * @return string CSS to be outputted after the theme's custom WooCommerce stylesheet.
  */
-function genesis_sample_woocommerce_css() {
+function genesis_srab_woocommerce_css() {
 
 	// If WooCommerce isn't active, exit early.
 	if ( ! class_exists( 'WooCommerce' ) ) {
@@ -49,8 +49,8 @@ function genesis_sample_woocommerce_css() {
 
 	$appearance = genesis_get_config( 'appearance' );
 
-	$color_link   = get_theme_mod( 'genesis_sample_link_color', $appearance['default-colors']['link'] );
-	$color_accent = get_theme_mod( 'genesis_sample_accent_color', $appearance['default-colors']['accent'] );
+	$color_link   = get_theme_mod( 'genesis_srab_link_color', $appearance['default-colors']['link'] );
+	$color_accent = get_theme_mod( 'genesis_srab_accent_color', $appearance['default-colors']['accent'] );
 
 	$woo_css = '';
 
@@ -116,7 +116,7 @@ function genesis_sample_woocommerce_css() {
 
 	',
 		$color_accent,
-		genesis_sample_color_contrast( $color_accent )
+		genesis_srab_color_contrast( $color_accent )
 	) : '';
 
 	if ( $woo_css ) {

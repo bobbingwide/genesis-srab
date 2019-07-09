@@ -1,10 +1,10 @@
 <?php
 /**
- * Genesis Sample theme settings.
+ * Genesis Solent Roofing and Building theme settings.
  *
  * Genesis 2.9+ updates these settings when themes are activated.
  *
- * @package Genesis Sample
+ * @package Genesis Solent Roofing and Building
  * @author  StudioPress
  * @license GPL-2.0-or-later
  * @link    https://www.studiopress.com/

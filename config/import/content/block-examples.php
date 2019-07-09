@@ -1,12 +1,12 @@
 <?php
 /**
- * Genesis Sample.
+ * Genesis Solent Roofing and Building.
  *
  * Block example page content optionally installed after theme activation.
  *
  * Visit `/wp-admin/admin.php?page=genesis-getting-started` to trigger import.
  *
- * @package Genesis Sample
+ * @package Genesis Solent Roofing and Building
  * @author  StudioPress
  * @license GPL-2.0-or-later
  * @link    https://www.studiopress.com/

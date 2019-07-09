@@ -1,11 +1,11 @@
 <?php
 /**
- * Genesis Sample child theme.
+ * Genesis Solent Roofing and Building child theme.
  *
- * @package Genesis Sample
+ * @package Genesis Solent Roofing and Building
  * @author  StudioPress
  * @license GPL-2.0-or-later
- * @link    https://my.studiopress.com/themes/genesis-sample/
+ * @link    https://my.studiopress.com/themes/genesis-srab/
  */
 
 /**

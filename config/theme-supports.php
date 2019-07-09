@@ -1,13 +1,13 @@
 <?php
 /**
- * Genesis Sample child theme.
+ * Genesis Solent Roofing and Building child theme.
  *
  * Theme supports.
  *
- * @package Genesis Sample
+ * @package Genesis Solent Roofing and Building
  * @author  StudioPress
  * @license GPL-2.0-or-later
- * @link    https://my.studiopress.com/themes/genesis-sample/
+ * @link    https://my.studiopress.com/themes/genesis-srab/
  */
 
 return array(
@@ -33,7 +33,7 @@ return array(
 	'genesis-after-entry-widget-area' => '',
 	'genesis-footer-widgets'          => 3,
 	'genesis-menus'                   => array(
-		'primary'   => __( 'Header Menu', 'genesis-sample' ),
-		'secondary' => __( 'Footer Menu', 'genesis-sample' ),
+		'primary'   => __( 'Header Menu', 'genesis-srab' ),
+		'secondary' => __( 'Footer Menu', 'genesis-srab' ),
 	),
 );

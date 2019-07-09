@@ -1,10 +1,10 @@
 <?php
 /**
- * Genesis Sample.
+ * Genesis Solent Roofing and Building.
  *
  * Onboarding config to load plugins and homepage content on theme activation.
  *
- * @package Genesis Sample
+ * @package Genesis Solent Roofing and Building
  * @author  StudioPress
  * @license GPL-2.0-or-later
  * @link    https://www.studiopress.com/
@@ -14,22 +14,22 @@ return array(
 	'dependencies'     => array(
 		'plugins' => array(
 			array(
-				'name'       => __( 'Atomic Blocks', 'genesis-sample' ),
+				'name'       => __( 'Atomic Blocks', 'genesis-srab' ),
 				'slug'       => 'atomic-blocks/atomicblocks.php',
 				'public_url' => 'https://atomicblocks.com/',
 			),
 			array(
-				'name'       => __( 'Simple Social Icons', 'genesis-sample' ),
+				'name'       => __( 'Simple Social Icons', 'genesis-srab' ),
 				'slug'       => 'simple-social-icons/simple-social-icons.php',
 				'public_url' => 'https://wordpress.org/plugins/simple-social-icons/',
 			),
 			array(
-				'name'       => __( 'Genesis eNews Extended (Third Party)', 'genesis-sample' ),
+				'name'       => __( 'Genesis eNews Extended (Third Party)', 'genesis-srab' ),
 				'slug'       => 'genesis-enews-extended/plugin.php',
 				'public_url' => 'https://wordpress.org/plugins/genesis-enews-extended/',
 			),
 			array(
-				'name'       => __( 'WPForms Lite (Third Party)', 'genesis-sample' ),
+				'name'       => __( 'WPForms Lite (Third Party)', 'genesis-srab' ),
 				'slug'       => 'wpforms-lite/wpforms.php',
 				'public_url' => 'https://wordpress.org/plugins/wpforms-lite/',
 			),
