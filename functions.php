@@ -225,3 +225,22 @@ function genesis_srab_comments_gravatar( $args ) {
 	return $args;
 
 }
+
+add_filter( 'genesis_footer_creds_text', "genesis_srab_footer_creds_text" );
+
+/**
+ * Display footer credits for the genesis-hm theme
+ */
+function genesis_srab_footer_creds_text( $text ) {
+	do_action( "oik_add_shortcodes" );
+	$text = "[bw_wpadmin]";
+	$text .= '<br />';
+	$text .= "[bw_copyright]";
+	$text .= '<hr />';
+	//$text .= 'Website designed and developed by [bw_link text="Herb Miller" herbmiller.me] of';
+	//$text .= ' <a href="//www.bobbingwide.com" title="Bobbing Wide - web design, web development">[bw]</a>';
+	//$text .= '<br />';
+	//$text .= '[bw_power]';
+	return( $text );
+}
+
