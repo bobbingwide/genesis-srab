@@ -5,7 +5,7 @@
  * This file adds functions to the Genesis Solent Roofing and Building Theme.
  *
  * @package Genesis Solent Roofing and Building
- * @author  StudioPress
+ * @author  BobbingWide
  * @license GPL-2.0-or-later
  * @link    https://www.studiopress.com/
  */
@@ -38,13 +38,13 @@ require_once get_stylesheet_directory() . '/lib/customize.php';
 require_once get_stylesheet_directory() . '/lib/output.php';
 
 // Adds WooCommerce support.
-require_once get_stylesheet_directory() . '/lib/woocommerce/woocommerce-setup.php';
+//require_once get_stylesheet_directory() . '/lib/woocommerce/woocommerce-setup.php';
 
 // Adds the required WooCommerce styles and Customizer CSS.
-require_once get_stylesheet_directory() . '/lib/woocommerce/woocommerce-output.php';
+//require_once get_stylesheet_directory() . '/lib/woocommerce/woocommerce-output.php';
 
 // Adds the Genesis Connect WooCommerce notice.
-require_once get_stylesheet_directory() . '/lib/woocommerce/woocommerce-notice.php';
+//require_once get_stylesheet_directory() . '/lib/woocommerce/woocommerce-notice.php';
 
 add_action( 'after_setup_theme', 'genesis_child_gutenberg_support' );
 /**
@@ -92,6 +92,7 @@ function genesis_srab_enqueue_scripts_styles() {
 }
 
 add_action( 'after_setup_theme', 'genesis_srab_theme_support', 9 );
+add_action( 'after_setup_theme', 'genesis_srab_oik_clone_support' );
 /**
  * Add desired theme supports.
  *
@@ -106,7 +107,14 @@ function genesis_srab_theme_support() {
 	foreach ( $theme_supports as $feature => $args ) {
 		add_theme_support( $feature, $args );
 	}
+}
 
+function genesis_srab_oik_clone_support() {
+	$feature = 'clone';
+	add_post_type_support( 'oik_testimonials', $feature );
+	add_post_type_support( 'post', $feature );
+	add_post_type_support( 'page', $feature );
+	add_post_type_support( 'attachment', $feature );
 }
 
 add_filter( 'genesis_seo_title', 'genesis_srab_header_title', 10, 3 );
@@ -243,4 +251,3 @@ function genesis_srab_footer_creds_text( $text ) {
 	//$text .= '[bw_power]';
 	return( $text );
 }
-
