@@ -1,52 +1,60 @@
-# Genesis Sample Theme
+=== genesis-srab ===
+Contributors: bobbingwide
+Donate link: http://www.oik-plugins.com/oik/oik-donate/
+Tags: genesis, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments
+Requires at least: 5.5.2
+Tested up to: 5.5.2
+Version: 0.0.1
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-GitHub project link: https://github.com/studiopress/genesis-sample/.
+Genesis Child Theme for Solenr Roofing and Building
+
+== Description ==
+genesis-srab is a child theme for the Genesis Theme Framework. 
+Implemented on solentroofingandbuilding.co.uk
+
+- Displays logo in the header
+- Main menu in the header menu
+- Footer menu below the footer widgets
+- 3 footer widget areas 
 
 
-## Installation Instructions
+== Installation ==
 
-1. Upload the Genesis Sample theme folder via FTP to your wp-content/themes/ directory. (The Genesis parent theme needs to be in the wp-content/themes/ directory as well.)
-2. Go to your WordPress dashboard and select Appearance.
-3. Activate the Genesis Sample theme.
-4. Inside your WordPress dashboard, go to Genesis > Theme Settings and configure them to your liking.
+1. Purchase and Install the Genesis parent theme
+2. Download the genesis-srab child theme
+3. Install the genesis-srab child theme
+4. Activate the genesis-srab child theme
+5. Navigate to Appearance > Customize in your admin panel and customize to taste.
+6. Navigate to Genesis > Theme Settings to set other options
+7. Optionally, install and activate a range of oik-based plugins.
 
-## Theme Support
+== Change Log ==
+= 0.0.1 = 
+* Added: Based on genesis-sample 3.0.1 with styling to appear like an Avada theme.
+* Changed: Copied and cobbled some logic from genesis-hm
 
-Please visit https://my.studiopress.com/help/ for theme support.
+== Copyright ==
 
-## For Developers
+genesis-srab (C) Copyright Bobbing Wide 2019
+ 
 
-The version of [Genesis Sample on GitHub](https://github.com/studiopress/genesis-sample/) includes tooling to check code against WordPress standards. To use it:
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 of the License, or
+(at your option) any later version.
 
-1. Install Composer globally on your development machine. [See Composer setup steps](https://getcomposer.org/doc/00-intro.md#downloading-the-composer-executable).
-2. In the command line, change directory to the Genesis Sample folder.
-3. Type the command `composer install` to install PHP development dependencies.
-4. Type `composer phpcs` to run coding standards checks.
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
 
-You'll see output highlighting issues with PHP files that do not conform to Genesis Sample coding standards.
+genesis-srab does not bundle third-party resources:
 
-Run `composer phpcbf` if you see “phpcbf can fix the x marked sniff violations automatically” in the output of `composer phpcs`.
+== Notes ==
 
-### npm scripts
+- Dependent upon the Genesis Theme Framework.
+- Benefits from oik plugins.
+- Gutenberg compatible.
 
-Scripts are also provided to help with CSS linting, CSS autoprefixing, and creation of pot language files. To use them:
-
-1. Install [Node.js](https://nodejs.org/), which also gives you the Node Package Manager (npm).
-2. In the command line, change directory to the Genesis Sample folder.
-3. Type the command `npm install` to install dependencies.
-
-You can then type any of these commands:
-
-- `npm run autoprefixer` to add and remove vendor prefixes in `style.css`.
-- `npm run makepot` to regenerate the `languages/genesis-sample.pot` file.
-- `npm run lint:css` to generate a report of style violations for `style.css`.
-- `npm run lint:js` to generate a report of style violations for JavaScript files.
-- `npm run fix:js` to fix any JavaScript style violations that can be corrected automatically.
-- `npm run zip` to create a genesis-sample.zip. Files in the `excludes` array in `scripts/makezip.js` are omitted.
-
-### Packaging for distribution
-
-1. Follow the install instructions for npm scripts above.
-2. Switch to the git branch you plan to distribute.
-3. Bump version numbers manually and commit those changes.
-4. Type `npm run zip` to create `genesis-sample.zip`. Files in the `excludes` array in `scripts/makezip.js` are omitted from the zip. `filename.md` files will be renamed to `filename.txt`.
