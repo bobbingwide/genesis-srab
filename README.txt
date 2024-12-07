@@ -2,9 +2,9 @@
 Contributors: bobbingwide
 Donate link: http://www.oik-plugins.com/oik/oik-donate/
 Tags: genesis, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments
-Requires at least: 5.5.2
-Tested up to: 5.5.2
-Version: 0.0.1
+Requires at least: 6.7
+Tested up to: 6.7.1
+Version: 0.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,13 +31,17 @@ Implemented on solentroofingandbuilding.co.uk
 7. Optionally, install and activate a range of oik-based plugins.
 
 == Change Log ==
+= 0.1.0 =
+* Changed: Make compatible with WordPress 6.7 
+* Tested: With PHP 8.3 and PHP 8.4
+
 = 0.0.1 = 
 * Added: Based on genesis-sample 3.0.1 with styling to appear like an Avada theme.
 * Changed: Copied and cobbled some logic from genesis-hm
 
 == Copyright ==
 
-genesis-srab (C) Copyright Bobbing Wide 2019
+genesis-srab (C) Copyright Bobbing Wide 2019-2024
  
 
 This program is free software: you can redistribute it and/or modify
